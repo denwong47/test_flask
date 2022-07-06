@@ -10,5 +10,5 @@ def hello_world():
 def main():
     app.run(
         host=os.environ.get("HOST_NAME", "0.0.0.0"),
-        port=int(os.environ.get("HOST_PORT", 11103)),
+        port=int(os.environ.get("HOST_PORT", 8080)),
     )
